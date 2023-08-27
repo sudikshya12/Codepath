@@ -1,0 +1,252 @@
+.main {
+  background-color: #1a1a1a;
+  padding: 3rem;
+  justify-content: center;
+}
+
+.App {
+  background-image: url('../src/assets/image.jpeg');
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1.5px solid #333;
+  text-align: center;
+  height: 100vh;
+  margin-bottom: 0 !important;
+}
+
+.lightBox{
+  margin-top: 0 !important;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-color: #000000a6;
+  padding-top: 7.2rem;
+}
+
+h1 {
+  color: #ffffff !important;
+  font-size: 5rem !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  margin: 0 auto !important;
+  align-items: center;
+  justify-content: center !important;
+}
+
+.AddEditCreator {
+  padding: 2.5rem 5rem;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+label {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+label p {
+  color: #999999;
+}
+
+input {
+  height: 18px !important;
+}
+
+input, textarea {
+  width: 50% !important;
+  color: #333333 !important;
+  background-color: #e0e0e0 !important;
+}
+
+input:focus {
+  background-color: #ffffff !important;
+  color: #333333 !important;
+}
+
+button.submit {
+  margin: 0 auto;
+  width: 20%;
+  background-color: #333;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button.submit:hover {
+  background-color: #555;
+}
+
+.showCreators {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card {
+  border: 2px solid #333;
+  background-size: cover;
+  background-position-y: 20%;
+  background-repeat: no-repeat;
+  border-radius: 9px;
+  position: relative;
+  margin: 15px 25px;
+  padding-top: 0 !important;
+  width: 40%;
+  height: 350px;
+  color: #ffffff !important;
+  overflow: hidden;
+}
+
+@media (max-width: 480px)  {
+.Card {
+  width: 90%;
+}
+main {
+  padding: 5px !important;
+}
+h1 {
+  font-size: 3rem;
+}
+}
+
+article {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #000000a6 !important;
+  display: flex;
+  margin: 0 !important;
+  color: #ffffff !important;
+  overflow: hidden;
+}
+
+.card-header {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.card-header svg {
+  margin-left: 12px;
+}
+
+h2.name {
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma;
+  margin-bottom: 0 !important;
+}
+
+svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.card-header-edit {
+  padding-top: 40px;
+  font-size: 20px;
+  text-align: right;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+
+.card-header-edit a {
+  margin-left: 10px;
+}
+
+.card-description {
+  padding-top: 20px;
+  width: 100%;
+  margin: 0px;
+}
+
+.card-description p {
+  font-size: 0.8em;
+  overflow: hidden;
+  position: absolute;
+  bottom: 15px;
+  color: #dddddd !important;
+}
+
+.submit-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto !important;
+  text-align: center;
+}
+
+.submit-box button {
+  width: 10rem;
+  align-self: center;
+  background-color: #333;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.submit-box button:hover {
+  background-color: #555;
+}
+
+.submit-update {
+  margin-left: 25%;
+}
+
+.delete-button {
+  margin-left: 2rem;
+  background-color: #d9534f;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c9302c;
+}
+
+.modify-creator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto !important;
+  text-align: center;
+}
+
+.modify-creator button, .modify-creator a {
+  width: 10rem;
+  align-self: center;
+  background-color: #333;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.modify-creator button:hover, .modify-creator a:hover {
+  background-color: #555;
+}
+
+.creator-image-box img {
+  border: 5px solid rgba(41, 0, 0, 0.908);
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  box-shadow: inset;
+}
